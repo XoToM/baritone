@@ -179,6 +179,7 @@ public class ExecutionControlCommands {
                 if (paused[0]) {
                     paused[0] = false;
                 }
+                baritone.getReschedulerProcess().clearQueue();
                 baritone.getPathingBehavior().cancelEverything();
                 logDirect("ok canceled");
             }

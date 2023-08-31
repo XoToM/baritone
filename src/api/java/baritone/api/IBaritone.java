@@ -59,6 +59,12 @@ public interface IBaritone {
     IMineProcess getMineProcess();
 
     /**
+     * @return The {@link ReschedulerProcess} instance
+     * @see ReschedulerProcess
+     */
+    IReschedulerProcess getReschedulerProcess();
+
+    /**
      * @return The {@link IBuilderProcess} instance
      * @see IBuilderProcess
      */
